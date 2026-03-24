@@ -1,0 +1,43 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed_addon:ammonia_particle"
+    },
+    {
+      "item": "changed_addon:ammonia_particle"
+    },
+    {
+      "item": "changed_addon:ammonia_particle"
+    },
+    {
+      "item": "changed_addon:ammonia_particle"
+    },
+    {
+      "item": "changed_addon:ammonia_particle"
+    },
+    {
+      "item": "changed_addon:ammonia_particle"
+    },
+    {
+      "item": "changed_addon:ammonia_particle"
+    },
+    {
+      "item": "changed_addon:ammonia_particle"
+    },
+    {
+      "item": "changed_addon:biomass"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed_addon:ammonia_compressed"
+    }
+  ]
+}
