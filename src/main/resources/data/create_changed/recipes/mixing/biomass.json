@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "changed_addon:gooey"
+    },
+    {
+      "tag": "changed_addon:meat"
+    },
+    {
+      "tag": "changed_addon:gooey"
+    },
+    {
+      "tag": "changed_addon:meat"
+    },
+    {
+      "tag": "changed_addon:gooey"
+    },
+    {
+      "tag": "changed_addon:meat"
+    },
+    {
+      "tag": "changed_addon:gooey"
+    },
+    {
+      "tag": "changed_addon:meat"
+    },
+    {
+      "item": "changed:latex_base"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed_addon:biomass",
+      "count": 4
+    }
+  ]
+}
