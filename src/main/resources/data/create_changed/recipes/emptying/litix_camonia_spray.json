@@ -1,0 +1,23 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed_addon:empty_spray"
+    },
+    {
+      "amount": 100,
+      "fluid": "changed_addon:litix_camonia_fluid"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed_addon:litix_camonia_spray"
+    }
+  ]
+}

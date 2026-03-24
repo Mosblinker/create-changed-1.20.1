@@ -1,0 +1,23 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed:syringe"
+    },
+    {
+      "amount": 100,
+      "fluid": "changed_addon:litix_camonia_fluid"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed_addon:syringe_with_litix_cammonia"
+    }
+  ]
+}

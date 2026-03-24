@@ -1,0 +1,20 @@
+{
+  "type": "create:cutting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed_addon:dormant_white_latex"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:white_latex_goo",
+      "count": 4
+    }
+  ]
+}

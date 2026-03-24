@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed_addon:litix_camonia"
+    },
+    {
+      "amount": 250,
+      "fluid": "create:potion",
+      "nbt": {"Bottle": "REGULAR", "Potion": "minecraft:awkward"}
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "create:potion",
+      "nbt": {"Bottle": "REGULAR", "Potion": "changed_addon:litix_cammonia_effect"}
+    }
+  ]
+}

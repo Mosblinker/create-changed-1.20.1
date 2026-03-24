@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "changed:white_latex_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:white_latex_goo",
+      "count": 4
+    }
+  ]
+}

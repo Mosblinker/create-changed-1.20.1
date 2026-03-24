@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "changed:white_latex_goo"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "changed:white_latex"
+    }
+  ]
+}

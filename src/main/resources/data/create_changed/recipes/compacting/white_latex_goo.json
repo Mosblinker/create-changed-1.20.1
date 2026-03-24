@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "amount": 250,
+      "fluid": "changed:white_latex"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:white_latex_goo"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "changed:dark_latex_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:dark_latex_goo",
+      "count": 4
+    }
+  ]
+}
