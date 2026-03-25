@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "changed:mug_with_white_latex"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:mug"
+    },
+    {
+      "amount": 250,
+      "fluid": "changed:white_latex"
+    }
+  ]
+}
