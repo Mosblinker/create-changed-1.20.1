@@ -1,5 +1,5 @@
 {
-  "type": "create:emptying",
+  "type": "create:filling",
   "conditions": [
     {
       "type": "forge:mod_loaded",
@@ -8,16 +8,16 @@
   ],
   "ingredients": [
     {
-      "item": "changed_addon:dark_latex_spray"
-    }
-  ],
-  "results": [
-    {
       "item": "changed_addon:empty_spray"
     },
     {
       "amount": 100,
       "fluid": "changed:dark_latex"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed_addon:dark_latex_spray"
     }
   ]
 }
