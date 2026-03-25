@@ -1,0 +1,31 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed_addon:goo_core_fragment"
+    },
+    {
+      "item": "changed_addon:goo_core_fragment"
+    },
+    {
+      "item": "changed_addon:goo_core_fragment"
+    },
+    {
+      "item": "changed_addon:goo_core_fragment"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed_addon:goo_core"
+    }
+  ]
+}
