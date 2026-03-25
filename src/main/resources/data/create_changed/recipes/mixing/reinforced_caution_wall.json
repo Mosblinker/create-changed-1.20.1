@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed_addon:iridium"
+    },
+    {
+      "item": "changed:wall_caution"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed_addon:reinforced_wall_caution"
+    }
+  ]
+}
