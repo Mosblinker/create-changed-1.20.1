@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_wool"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:orange_lab_carpeting"
+    }
+  ]
+}
