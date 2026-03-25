@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "railways"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed:lab_table"
+    },
+    {
+      "amount": 125,
+      "fluid": "railways:paint",
+      "nbt": {"Color": "white"}
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:white_lab_table"
+    }
+  ]
+}
