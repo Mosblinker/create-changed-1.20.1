@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "changed:lab_table"
+    },
+    {
+      "item": "changed:lab_table"
+    },
+    {
+      "item": "changed:lab_table"
+    },
+    {
+      "item": "changed:lab_table"
+    },
+    {
+      "item": "changed:lab_table"
+    },
+    {
+      "item": "changed:lab_table"
+    },
+    {
+      "item": "changed:lab_table"
+    },
+    {
+      "item": "changed:lab_table"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:white_lab_table",
+      "count": 8
+    }
+  ]
+}
