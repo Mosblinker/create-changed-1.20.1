@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "changed:lab_light"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:lab_light_small",
+      "count": 2
+    }
+  ]
+}
