@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "changed:wolf_crystal_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed:wolf_crystal_fragment",
+      "count": 9
+    }
+  ]
+}
