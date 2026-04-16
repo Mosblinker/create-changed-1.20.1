@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed:white_latex_block"
+    },
+    {
+      "item": "changed_addon:luminara_bloom_petals"
+    },
+    {
+      "item": "changed_addon:luminara_bloom_petals"
+    },
+    {
+      "item": "changed_addon:luminara_bloom_petals"
+    },
+    {
+      "item": "changed_addon:luminara_bloom_petals"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed_addon:dormant_white_latex",
+      "count": 2
+    }
+  ]
+}

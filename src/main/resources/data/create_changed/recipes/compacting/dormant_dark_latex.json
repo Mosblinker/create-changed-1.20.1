@@ -1,0 +1,29 @@
+{
+  "type": "create:compacting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "changed:dark_latex_goo"
+    },
+    {
+      "item": "changed:dark_latex_goo"
+    },
+    {
+      "item": "changed_addon:luminara_bloom_petals"
+    },
+    {
+      "item": "changed_addon:luminara_bloom_petals"
+    }
+  ],
+  "results": [
+    {
+      "item": "changed_addon:dormant_dark_latex",
+      "count": 1
+    }
+  ]
+}
