@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "pattern": [
+    "IwI",
+    "GWG",
+    "BGB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "I": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "w": {
+      "item": "minecraft:white_dye"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+    ,
+    "G": {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result": {
+    "item": "changed_addon:dark_latex_wolf_plushy"
+  }
+}
