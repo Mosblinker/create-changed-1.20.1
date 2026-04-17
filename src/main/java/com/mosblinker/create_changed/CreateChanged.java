@@ -59,13 +59,12 @@ public class CreateChanged
 //            .displayItems((parameters, output) -> {
 //                output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
 //            }).build());
-
-//    public CreateChanged(FMLJavaModLoadingContext context)
-//    {
-//        IEventBus modEventBus = context.getModEventBus();
+    public CreateChanged(FMLJavaModLoadingContext context)
+    {
+        final IEventBus modEventBus = context.getModEventBus();
 
         // Register the commonSetup method for modloading
-//        modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(this::commonSetup);
 
 //        // Register the Deferred Register to the mod event bus so blocks get registered
 //        BLOCKS.register(modEventBus);
@@ -75,14 +74,14 @@ public class CreateChanged
 //        CREATIVE_MODE_TABS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
-//        MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(this);
 
 //        // Register the item to a creative tab
 //        modEventBus.addListener(this::addCreative);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
 //        context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
-//    }
+    }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
