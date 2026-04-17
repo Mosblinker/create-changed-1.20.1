@@ -36,6 +36,9 @@ public class CreateChanged
     public static final String MODID = "create_changed";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+    // This is an instance of this class
+    private static CreateChanged obj;
+    
 //    // Create a Deferred Register to hold Blocks which will all be registered under the "create_changed" namespace
 //    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
 //    // Create a Deferred Register to hold Items which will all be registered under the "create_changed" namespace
@@ -59,8 +62,13 @@ public class CreateChanged
 //            .displayItems((parameters, output) -> {
 //                output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
 //            }).build());
+    public static CreateChanged getInstance() {
+    		return obj;
+    }
+    
     public CreateChanged(FMLJavaModLoadingContext context)
     {
+        obj = this;
         final IEventBus modEventBus = context.getModEventBus();
 
         // Register the commonSetup method for modloading
