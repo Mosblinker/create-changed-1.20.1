@@ -30,3 +30,4 @@ bin/*
 .settings/*
 .images/*
 .classpath
+jdk-21.0.9+10/*

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "pattern": [
+    "PL ",
+    "LP ",
+    "   "
+  ],
+  "key": {
+    "L": {
+      "item": "changed:white_latex_goo"
+    },
+    "P": {
+      "item": "changed_addon:luminara_bloom_petals"
+    }
+  },
+  "result": {
+    "item": "changed_addon:dormant_white_latex"
+  }
+}
