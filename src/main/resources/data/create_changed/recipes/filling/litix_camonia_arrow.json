@@ -1,0 +1,24 @@
+{
+  "type": "create:filling",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "changed_addon"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "amount": 125,
+      "fluid": "changed_addon:litix_camonia_fluid"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:tipped_arrow",
+      "nbt": {"Potion": "changed_addon:litix_cammonia_effect"}
+    }
+  ]
+}
