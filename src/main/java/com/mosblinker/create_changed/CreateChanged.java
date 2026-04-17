@@ -98,7 +98,7 @@ public class CreateChanged
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-    		LOGGER.info("PURO!!!!");
+    	LOGGER.info("PURO!!!!");
 //        // Some common setup code
 //        LOGGER.info("HELLO FROM COMMON SETUP");
 //
