@@ -19,7 +19,7 @@
   ],
   "results": [
     {
-      "amount": 1,
+      "amount": 2,
       "fluid": "create:potion",
       "nbt": {"Bottle": "REGULAR", "Potion": "changed_addon:litix_cammonia_effect"}
     }
