@@ -74,7 +74,7 @@ description='''${mod_description}'''
 [[dependencies.${mod_id}]]
     modId="changed"
     mandatory=true
-    versionRange="[${changed_version},)"
+    versionRange="[0.15.4,)"
     ordering="AFTER"
     side="BOTH"
 [[dependencies.${mod_id}]]
