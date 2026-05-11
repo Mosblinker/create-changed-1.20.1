@@ -1,5 +1,7 @@
 package com.mosblinker.create_changed;
 
+import net.ltxprogrammer.changed.entity.variant.TransfurVariant;
+import net.ltxprogrammer.changed.init.ChangedRegistry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeConfigSpec;
@@ -37,6 +39,10 @@ public class CreateChangedConfig
 //            .comment("A list of items to log on common setup.")
 //            .defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), CreateChangedConfig::validateItemName);
     
+    // a list of strings that are treated as resource locations for transfur variants
+    private static final ForgeConfigSpec.ConfigValue<List<? extends String>> EXOSKELETON_HYPNO_VARIANTS_STRINGS = BUILDER
+    		.comment("A list of transfur variants that the advanced exoskeleton will show the hypno visor for.","This excludes benign latexes as those will always show the hypno visor.")
+    		.defineListAllowEmpty("advancedExoskeletonHypnoVisorVariants", List.of(), CreateChangedConfig::validateTransfurVariants);
     
 
     static final ForgeConfigSpec SPEC = BUILDER.build();
@@ -50,6 +56,15 @@ public class CreateChangedConfig
 //    {
 //        return obj instanceof final String itemName && ForgeRegistries.ITEMS.containsKey(new ResourceLocation(itemName));
 //    }
+    
+    /**
+     * A set containing the TransfurVariants that the advanced exoskeleton will show the hypno visor for.
+     */
+    public static Set<TransfurVariant<?>> advancedExoskeletonHypnoVisorVariants;
+    
+    private static boolean validateTransfurVariants(final Object obj) {
+    		return obj instanceof final String variantName && ChangedRegistry.TRANSFUR_VARIANT.get().containsKey(new ResourceLocation(variantName));
+    }
 
     @SubscribeEvent
     static void onLoad(final ModConfigEvent event)
@@ -62,5 +77,10 @@ public class CreateChangedConfig
 //        items = ITEM_STRINGS.get().stream()
 //                .map(itemName -> ForgeRegistries.ITEMS.getValue(new ResourceLocation(itemName)))
 //                .collect(Collectors.toSet());
+    	
+    		// Convert the list of strings into a set of transfur variant
+    		advancedExoskeletonHypnoVisorVariants = EXOSKELETON_HYPNO_VARIANTS_STRINGS.get().stream()
+    				.map(variantName -> ChangedRegistry.TRANSFUR_VARIANT.get().getValue(new ResourceLocation(variantName)))
+    				.collect(Collectors.toSet());
     }
 }
