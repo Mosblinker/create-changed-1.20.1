@@ -31,3 +31,4 @@ bin/*
 .images/*
 .classpath
 jdk-21.0.9+10/*
+jdk-17.*/*
