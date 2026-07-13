@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd9e896-2929-4119-8eab-37ceacb9f40e" name="Changes" comment="functional version, forked from main.">
+    <list default="true" id="1bd9e896-2929-4119-8eab-37ceacb9f40e" name="Changes" comment="cleaned up main class&#10;edited gradle.properties&#10;reversioned mod to be -X (Experimental branch)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/CreateChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/CreateChanged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,23 +71,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0187176252343009" />
-      <entry key="MS500" value="1.5453857207182136" />
-      <entry key="S2" value="2.694482498178223" />
-      <entry key="S5" value="4.165028610366074" />
-      <entry key="S10" value="5.532516284770041" />
-      <entry key="S30" value="7.6706768203126865" />
-      <entry key="S60" value="8.83847552346452" />
-      <entry key="M2" value="9.72501949192604" />
-      <entry key="M5" value="10.586786005905367" />
-      <entry key="M10" value="11.89674845584406" />
-      <entry key="M15" value="13.140469833366316" />
-      <entry key="M30" value="15.488773252857571" />
-      <entry key="H1" value="17.376477661148645" />
-      <entry key="H2" value="18.580185923962713" />
-      <entry key="H4" value="19.260762132384748" />
-      <entry key="D1" value="19.87250696656333" />
-      <entry key="W1" value="19.98167883413659" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0003280885284642" />
+      <entry key="S2" value="1.1516394692561092" />
+      <entry key="S5" value="1.6445745830905507" />
+      <entry key="S10" value="2.1125820155641915" />
+      <entry key="S30" value="2.6698661376004624" />
+      <entry key="S60" value="3.131828628245595" />
+      <entry key="M2" value="5.004121402905365" />
+      <entry key="M5" value="13.366146695305531" />
+      <entry key="M10" value="22.34849642196014" />
+      <entry key="M15" value="27.466150507440553" />
+      <entry key="M30" value="34.92691170390709" />
+      <entry key="H1" value="40.157100320864814" />
+      <entry key="H2" value="43.33606429379204" />
+      <entry key="H4" value="45.10125177471811" />
+      <entry key="D1" value="46.673686264419025" />
+      <entry key="W1" value="46.953134390538935" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -108,24 +109,27 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9371742100578527" />
-      <entry key="MS500" value="1.5182701134083194" />
-      <entry key="S2" value="2.6815892685160576" />
-      <entry key="S5" value="4.156616016500115" />
-      <entry key="S10" value="5.526809924921953" />
-      <entry key="S30" value="7.668011180934049" />
-      <entry key="S60" value="8.836905108540003" />
-      <entry key="M2" value="9.724130526040241" />
-      <entry key="M5" value="10.586381132972232" />
-      <entry key="M10" value="11.896495310038143" />
-      <entry key="M15" value="13.140267249123266" />
-      <entry key="M30" value="15.488639580241871" />
-      <entry key="H1" value="17.376397726886267" />
-      <entry key="H2" value="18.580141770689806" />
-      <entry key="H4" value="19.260738871068" />
-      <entry key="D1" value="19.872502912091665" />
-      <entry key="W1" value="19.981678250397543" />
+      <entry key="MS100" value="0.7422617853145246" />
+      <entry key="MS500" value="0.9424399445919256" />
+      <entry key="S2" value="1.1343613573022913" />
+      <entry key="S5" value="1.6338211844133577" />
+      <entry key="S10" value="2.105208774262732" />
+      <entry key="S30" value="2.6665637361731727" />
+      <entry key="S60" value="3.1295914053376994" />
+      <entry key="M2" value="5.000629910265168" />
+      <entry key="M5" value="13.360285497204309" />
+      <entry key="M10" value="22.343408108474883" />
+      <entry key="M15" value="27.46204110056427" />
+      <entry key="M30" value="34.924404846121476" />
+      <entry key="H1" value="40.155710003363815" />
+      <entry key="H2" value="43.33533107441865" />
+      <entry key="H4" value="45.10087509583143" />
+      <entry key="D1" value="46.67362203493239" />
+      <entry key="W1" value="46.9531251786978" />
     </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -133,6 +137,8 @@
     "Gradle.create-changed-1.20.1-JsBsTesting [:prepareRunClientCompile].executor": "Run",
     "Gradle.create-changed-1.20.1-JsBsTesting [createMcpToSrg].executor": "Run",
     "Gradle.create-changed-1.20.1-JsBsTesting [genIntellijRuns].executor": "Run",
+    "Gradle.create-changed-1.20.1-JsBsTesting [runClient].executor": "Run",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "git-widget-placeholder": "experimental",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Project",
@@ -141,7 +147,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.runClient">
+  <component name="RunManager" selected="Gradle.create-changed-1.20.1-JsBsTesting [runClient]">
     <configuration name="create-changed-1.20.1-JsBsTesting [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -167,6 +173,31 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="create-changed-1.20.1-JsBsTesting [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,6 +209,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.create-changed-1.20.1-JsBsTesting [runClient]" />
         <item itemvalue="Gradle.create-changed-1.20.1-JsBsTesting [genIntellijRuns]" />
       </list>
     </recent_temporary>
@@ -207,12 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1783973311869</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cleaned up main class&#10;edited gradle.properties&#10;reversioned mod to be -X (Experimental branch)">
+      <option name="closed" value="true" />
+      <created>1783975079379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1783975079379</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hi" />
     <MESSAGE value="functional version, forked from main." />
-    <option name="LAST_COMMIT_MESSAGE" value="functional version, forked from main." />
+    <MESSAGE value="cleaned up main class&#10;edited gradle.properties&#10;reversioned mod to be -X (Experimental branch)" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up main class&#10;edited gradle.properties&#10;reversioned mod to be -X (Experimental branch)" />
   </component>
 </project>
