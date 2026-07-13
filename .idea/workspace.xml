@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd9e896-2929-4119-8eab-37ceacb9f40e" name="Changes" comment="changed to parchment mappings">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/item/ModItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/lang/en_us.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/models/item/testitem.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/textures/item/testitem.png" afterDir="false" />
+    <list default="true" id="1bd9e896-2929-4119-8eab-37ceacb9f40e" name="Changes" comment="ADDED A TEST ITEM HELL YEAH">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/item/ModCreativeModeTabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/models/item/rawitem.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/textures/item/rawitem.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/CreateChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/CreateChanged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/create_changed/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,60 +82,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0002075867326827" />
-      <entry key="S2" value="1.124150373626005" />
-      <entry key="S5" value="1.5629303092733462" />
-      <entry key="S10" value="2.214207453909201" />
-      <entry key="S30" value="4.275539041937072" />
-      <entry key="S60" value="6.384375006204261" />
-      <entry key="M2" value="8.888279223901147" />
-      <entry key="M5" value="13.549836145143486" />
-      <entry key="M10" value="20.535033979498152" />
-      <entry key="M15" value="27.195567516413437" />
-      <entry key="M30" value="41.67057450399776" />
-      <entry key="H1" value="55.441527743273845" />
-      <entry key="H2" value="65.28484864184516" />
-      <entry key="H4" value="71.22839075306743" />
-      <entry key="D1" value="76.80844335229493" />
-      <entry key="W1" value="77.8281587874399" />
+      <entry key="MS500" value="1.000604487446698" />
+      <entry key="S2" value="1.1568002755651243" />
+      <entry key="S5" value="1.4765832074872995" />
+      <entry key="S10" value="1.6904753638519123" />
+      <entry key="S30" value="1.9699959227805741" />
+      <entry key="S60" value="2.565628703313366" />
+      <entry key="M2" value="4.466920143242897" />
+      <entry key="M5" value="10.128445522060218" />
+      <entry key="M10" value="17.523087325913135" />
+      <entry key="M15" value="24.494211725090565" />
+      <entry key="M30" value="42.92499681527426" />
+      <entry key="H1" value="65.65329754557106" />
+      <entry key="H2" value="85.07705144440733" />
+      <entry key="H4" value="98.06625501962768" />
+      <entry key="D1" value="111.10953448304363" />
+      <entry key="W1" value="113.58087852289407" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.026272502658474E-259" />
-      <entry key="S2" value="1.9267058439915386E-65" />
-      <entry key="S5" value="1.9291022947846586E-26" />
-      <entry key="S10" value="2.4621297088928265E-13" />
-      <entry key="S30" value="1.7793038640315313E-4" />
-      <entry key="S60" value="0.043721264085020424" />
-      <entry key="M2" value="0.9722529048514144" />
-      <entry key="M5" value="7.616563216595261" />
-      <entry key="M10" value="15.705529424305334" />
-      <entry key="M15" value="20.07425897114586" />
-      <entry key="M30" value="25.71160531959129" />
-      <entry key="H1" value="29.121264125444895" />
-      <entry key="H2" value="30.998046034984878" />
-      <entry key="H4" value="31.982852720510305" />
-      <entry key="D1" value="32.828183656504514" />
-      <entry key="W1" value="32.97539807348365" />
+      <entry key="MS100" value="1.1333438395100981E-270" />
+      <entry key="MS500" value="1.0253504766789156E-54" />
+      <entry key="S2" value="3.182240331049143E-14" />
+      <entry key="S5" value="4.076409582163145E-6" />
+      <entry key="S10" value="0.002514515889361626" />
+      <entry key="S30" value="0.35696518163617535" />
+      <entry key="S60" value="1.688642736479793" />
+      <entry key="M2" value="5.301892968456163" />
+      <entry key="M5" value="16.28545487690598" />
+      <entry key="M10" value="27.67390873432996" />
+      <entry key="M15" value="35.19429099515181" />
+      <entry key="M30" value="48.962660708437944" />
+      <entry key="H1" value="61.05130013499764" />
+      <entry key="H2" value="69.41969545351375" />
+      <entry key="H4" value="74.39400827857034" />
+      <entry key="D1" value="79.01798283395443" />
+      <entry key="W1" value="79.85849063748955" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9395227492140118" />
-      <entry key="MS500" value="0.9878064434856583" />
-      <entry key="S2" value="1.120732398996466" />
-      <entry key="S5" value="1.5611001818119004" />
-      <entry key="S10" value="2.2129196765287213" />
-      <entry key="S30" value="4.274878249514081" />
-      <entry key="S60" value="6.426630999794072" />
-      <entry key="M2" value="9.849437409348182" />
-      <entry key="M5" value="21.128383129386314" />
-      <entry key="M10" value="36.19924505156241" />
-      <entry key="M15" value="47.23365930626197" />
-      <entry key="M30" value="67.35809707383864" />
-      <entry key="H1" value="84.54877774986704" />
-      <entry key="H2" value="96.27531291283839" />
-      <entry key="H4" value="103.20729670255552" />
-      <entry key="D1" value="109.63594640963579" />
-      <entry key="W1" value="110.8034590581012" />
+      <entry key="MS100" value="0.9330329915368074" />
+      <entry key="MS500" value="0.9868288697827484" />
+      <entry key="S2" value="1.1527980506510385" />
+      <entry key="S5" value="1.4745410046217444" />
+      <entry key="S10" value="1.6915677291900362" />
+      <entry key="S30" value="2.311317953747565" />
+      <entry key="S60" value="4.210776137999558" />
+      <entry key="M2" value="9.68975377516585" />
+      <entry key="M5" value="26.31283802362117" />
+      <entry key="M10" value="45.11150690990054" />
+      <entry key="M15" value="59.616509622350655" />
+      <entry key="M30" value="91.83800448693374" />
+      <entry key="H1" value="126.67367791910833" />
+      <entry key="H2" value="154.4791362819767" />
+      <entry key="H4" value="172.4508100258711" />
+      <entry key="D1" value="190.12584039145105" />
+      <entry key="W1" value="193.43912695229886" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -149,7 +150,7 @@
     "Gradle.create-changed-1.20.1-JsBsTesting [runClient].executor": "Run",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "git-widget-placeholder": "experimental",
-    "last_opened_file_path": "D:/Downloads/create-changed-1.20.1-JsBsTesting/src/main/resources/assets/create_changed/textures/item",
+    "last_opened_file_path": "D:/Downloads/create-changed-1.20.1-JsBsTesting/src/main/resources/assets/create_changed/models/item",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -159,6 +160,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\assets\create_changed\models\item" />
       <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\assets\create_changed\textures\item" />
     </key>
   </component>
@@ -270,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783976011548</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ADDED A TEST ITEM HELL YEAH">
+      <option name="closed" value="true" />
+      <created>1783977810533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783977810533</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,6 +288,7 @@
     <MESSAGE value="functional version, forked from main." />
     <MESSAGE value="cleaned up main class&#10;edited gradle.properties&#10;reversioned mod to be -X (Experimental branch)" />
     <MESSAGE value="changed to parchment mappings" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed to parchment mappings" />
+    <MESSAGE value="ADDED A TEST ITEM HELL YEAH" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED A TEST ITEM HELL YEAH" />
   </component>
 </project>

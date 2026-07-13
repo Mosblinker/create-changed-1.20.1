@@ -1,3 +1,6 @@
 {
-  "item.create_changed.testitem": "Test Item"
+  "item.create_changed.testitem": "Test Item",
+  "item.create_changed.rawitem": "Raw test Item",
+
+  "creativetab.test_tab": "Experimental testing"
 }
