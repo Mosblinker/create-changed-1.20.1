@@ -13,6 +13,7 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateChanged.MODID);
 
+    //creative mode tab for all test/placeholder stuff.
     public static final RegistryObject<CreativeModeTab> TEST_TAB = CREATIVE_MODE_TABS.register("test_tab",
             () -> CreativeModeTab.builder( ).icon(() -> new ItemStack(ModItems.TESTITEM.get()))
                     .title(Component.translatable("creativetab.test_tab"))
@@ -21,6 +22,25 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAWITEM.get());
                     })
                     .build());
+
+    //creative mode tab for Shattered
+    public static final RegistryObject<CreativeModeTab> SHATTERED_TAB = CREATIVE_MODE_TABS.register("shattered_tab",
+            () -> CreativeModeTab.builder( ).icon(() -> new ItemStack(ModItems.TESTITEM.get())) //change later
+                    .title(Component.translatable("creativetab.shattered_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.TESTITEM.get());
+                    })
+                    .build());
+
+    //creative mode tab for Create Changed
+    public static final RegistryObject<CreativeModeTab> CREATE_CHANGED_TAB = CREATIVE_MODE_TABS.register("create_changed_tab",
+            () -> CreativeModeTab.builder( ).icon(() -> new ItemStack(ModItems.TESTITEM.get())) //change later
+                    .title(Component.translatable("creativetab.create_changed_tab"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.TESTITEM.get());
+                    })
+                    .build());
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
