@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd9e896-2929-4119-8eab-37ceacb9f40e" name="Changes" comment="cleaned up main class&#10;edited gradle.properties&#10;reversioned mod to be -X (Experimental branch)">
+    <list default="true" id="1bd9e896-2929-4119-8eab-37ceacb9f40e" name="Changes" comment="changed to parchment mappings">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/item/ModItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/lang/en_us.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/models/item/testitem.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/textures/item/testitem.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/CreateChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/CreateChanged.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -72,60 +81,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0003280885284642" />
-      <entry key="S2" value="1.1516394692561092" />
-      <entry key="S5" value="1.6445745830905507" />
-      <entry key="S10" value="2.1125820155641915" />
-      <entry key="S30" value="2.6698661376004624" />
-      <entry key="S60" value="3.131828628245595" />
-      <entry key="M2" value="5.004121402905365" />
-      <entry key="M5" value="13.366146695305531" />
-      <entry key="M10" value="22.34849642196014" />
-      <entry key="M15" value="27.466150507440553" />
-      <entry key="M30" value="34.92691170390709" />
-      <entry key="H1" value="40.157100320864814" />
-      <entry key="H2" value="43.33606429379204" />
-      <entry key="H4" value="45.10125177471811" />
-      <entry key="D1" value="46.673686264419025" />
-      <entry key="W1" value="46.953134390538935" />
+      <entry key="MS500" value="1.0002075867326827" />
+      <entry key="S2" value="1.124150373626005" />
+      <entry key="S5" value="1.5629303092733462" />
+      <entry key="S10" value="2.214207453909201" />
+      <entry key="S30" value="4.275539041937072" />
+      <entry key="S60" value="6.384375006204261" />
+      <entry key="M2" value="8.888279223901147" />
+      <entry key="M5" value="13.549836145143486" />
+      <entry key="M10" value="20.535033979498152" />
+      <entry key="M15" value="27.195567516413437" />
+      <entry key="M30" value="41.67057450399776" />
+      <entry key="H1" value="55.441527743273845" />
+      <entry key="H2" value="65.28484864184516" />
+      <entry key="H4" value="71.22839075306743" />
+      <entry key="D1" value="76.80844335229493" />
+      <entry key="W1" value="77.8281587874399" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS500" value="1.026272502658474E-259" />
+      <entry key="S2" value="1.9267058439915386E-65" />
+      <entry key="S5" value="1.9291022947846586E-26" />
+      <entry key="S10" value="2.4621297088928265E-13" />
+      <entry key="S30" value="1.7793038640315313E-4" />
+      <entry key="S60" value="0.043721264085020424" />
+      <entry key="M2" value="0.9722529048514144" />
+      <entry key="M5" value="7.616563216595261" />
+      <entry key="M10" value="15.705529424305334" />
+      <entry key="M15" value="20.07425897114586" />
+      <entry key="M30" value="25.71160531959129" />
+      <entry key="H1" value="29.121264125444895" />
+      <entry key="H2" value="30.998046034984878" />
+      <entry key="H4" value="31.982852720510305" />
+      <entry key="D1" value="32.828183656504514" />
+      <entry key="W1" value="32.97539807348365" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7422617853145246" />
-      <entry key="MS500" value="0.9424399445919256" />
-      <entry key="S2" value="1.1343613573022913" />
-      <entry key="S5" value="1.6338211844133577" />
-      <entry key="S10" value="2.105208774262732" />
-      <entry key="S30" value="2.6665637361731727" />
-      <entry key="S60" value="3.1295914053376994" />
-      <entry key="M2" value="5.000629910265168" />
-      <entry key="M5" value="13.360285497204309" />
-      <entry key="M10" value="22.343408108474883" />
-      <entry key="M15" value="27.46204110056427" />
-      <entry key="M30" value="34.924404846121476" />
-      <entry key="H1" value="40.155710003363815" />
-      <entry key="H2" value="43.33533107441865" />
-      <entry key="H4" value="45.10087509583143" />
-      <entry key="D1" value="46.67362203493239" />
-      <entry key="W1" value="46.9531251786978" />
+      <entry key="MS100" value="0.9395227492140118" />
+      <entry key="MS500" value="0.9878064434856583" />
+      <entry key="S2" value="1.120732398996466" />
+      <entry key="S5" value="1.5611001818119004" />
+      <entry key="S10" value="2.2129196765287213" />
+      <entry key="S30" value="4.274878249514081" />
+      <entry key="S60" value="6.426630999794072" />
+      <entry key="M2" value="9.849437409348182" />
+      <entry key="M5" value="21.128383129386314" />
+      <entry key="M10" value="36.19924505156241" />
+      <entry key="M15" value="47.23365930626197" />
+      <entry key="M30" value="67.35809707383864" />
+      <entry key="H1" value="84.54877774986704" />
+      <entry key="H2" value="96.27531291283839" />
+      <entry key="H4" value="103.20729670255552" />
+      <entry key="D1" value="109.63594640963579" />
+      <entry key="W1" value="110.8034590581012" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -140,6 +149,7 @@
     "Gradle.create-changed-1.20.1-JsBsTesting [runClient].executor": "Run",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "git-widget-placeholder": "experimental",
+    "last_opened_file_path": "D:/Downloads/create-changed-1.20.1-JsBsTesting/src/main/resources/assets/create_changed/textures/item",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -147,6 +157,11 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\assets\create_changed\textures\item" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.create-changed-1.20.1-JsBsTesting [runClient]">
     <configuration name="create-changed-1.20.1-JsBsTesting [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -247,13 +262,22 @@
       <option name="project" value="LOCAL" />
       <updated>1783975079379</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed to parchment mappings">
+      <option name="closed" value="true" />
+      <created>1783976011548</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1783976011548</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hi" />
     <MESSAGE value="functional version, forked from main." />
     <MESSAGE value="cleaned up main class&#10;edited gradle.properties&#10;reversioned mod to be -X (Experimental branch)" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up main class&#10;edited gradle.properties&#10;reversioned mod to be -X (Experimental branch)" />
+    <MESSAGE value="changed to parchment mappings" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed to parchment mappings" />
   </component>
 </project>

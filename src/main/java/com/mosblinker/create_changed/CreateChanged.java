@@ -1,5 +1,6 @@
 package com.mosblinker.create_changed;
 import com.mojang.logging.LogUtils;
+import com.mosblinker.create_changed.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -38,6 +39,8 @@ public class CreateChanged {
     public CreateChanged(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -52,6 +55,9 @@ public class CreateChanged {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+            if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+                event.accept(ModItems.TESTITEM);
+                }
 
     }
 
