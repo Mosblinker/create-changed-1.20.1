@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "create_changed:testitem"
+    }
+  },
+  "result": {
+   "item": "create_changed:test_block"
+  }
+}

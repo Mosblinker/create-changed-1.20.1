@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_changed:test_block"
+    }
+  ],
+  "result": {
+    "item": "create_changed:testitem",
+    "count": 9
+  }
+}

@@ -1,5 +1,6 @@
 package com.mosblinker.create_changed;
 import com.mojang.logging.LogUtils;
+import com.mosblinker.create_changed.block.ModBlocks;
 import com.mosblinker.create_changed.item.ModCreativeModeTabs;
 import com.mosblinker.create_changed.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -43,6 +44,7 @@ public class CreateChanged {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

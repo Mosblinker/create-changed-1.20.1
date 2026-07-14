@@ -2,6 +2,8 @@
   "item.create_changed.testitem": "Test Item",
   "item.create_changed.rawitem": "Raw test Item",
 
+  "block.create_changed.test_block": "Test block",
+
   "creativetab.test_tab": "Experimental testing",
   "creativetab.shattered_tab": "Shattered",
   "creativetab.create_changed_tab": "Create Changed"

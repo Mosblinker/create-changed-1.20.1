@@ -1,6 +1,7 @@
 package com.mosblinker.create_changed.item;
 
 import com.mosblinker.create_changed.CreateChanged;
+import com.mosblinker.create_changed.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,8 +19,10 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder( ).icon(() -> new ItemStack(ModItems.TESTITEM.get()))
                     .title(Component.translatable("creativetab.test_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.TESTITEM.get());
-                        pOutput.accept(ModItems.RAWITEM.get());
+                        pOutput.accept(ModItems.TESTITEM.get()); //test item
+                        pOutput.accept(ModItems.RAWITEM.get()); //raw variant for recipes
+
+                        pOutput.accept(ModBlocks.Test_Block.get()); //test block
                     })
                     .build());
 
@@ -28,7 +31,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder( ).icon(() -> new ItemStack(ModItems.TESTITEM.get())) //change later
                     .title(Component.translatable("creativetab.shattered_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.TESTITEM.get());
+                        pOutput.accept(ModItems.TESTITEM.get());    //placeholder to make tab visible
                     })
                     .build());
 
@@ -37,7 +40,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder( ).icon(() -> new ItemStack(ModItems.TESTITEM.get())) //change later
                     .title(Component.translatable("creativetab.create_changed_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.TESTITEM.get());
+                        pOutput.accept(ModItems.TESTITEM.get());    //placeholder to make tab visible
                     })
                     .build());
 
