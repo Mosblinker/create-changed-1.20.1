@@ -3,6 +3,7 @@
   "item.create_changed.rawitem": "Raw test Item",
 
   "block.create_changed.test_block": "Test block",
+  "block.create_changed.test_ore": "Test ore",
 
   "creativetab.test_tab": "Experimental testing",
   "creativetab.shattered_tab": "Shattered",

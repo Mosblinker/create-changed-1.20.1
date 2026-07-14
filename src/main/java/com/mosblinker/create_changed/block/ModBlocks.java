@@ -2,10 +2,12 @@ package com.mosblinker.create_changed.block;
 
 import com.mosblinker.create_changed.CreateChanged;
 import com.mosblinker.create_changed.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,8 +21,12 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
         DeferredRegister.create(ForgeRegistries.BLOCKS, CreateChanged.MODID);
 
-public static final RegistryObject<Block> Test_Block = registerBlock("test_block",
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST))); //test block with properties of iron block and amethyst sounds
+public static final RegistryObject<Block> Test_Block = registerBlock("test_block",  //test block with properties of iron block and amethyst sounds
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> TEST_ORE = registerBlock("test_ore",  //test ore block?
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.AMETHYST)
+                    .strength(1f), UniformInt.of(1, 10)));  //uniformint is the possible range of dropped xp
 
 
 

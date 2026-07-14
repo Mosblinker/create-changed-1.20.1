@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAWITEM.get()); //raw variant for recipes
 
                         pOutput.accept(ModBlocks.Test_Block.get()); //test block
+                        pOutput.accept(ModBlocks.TEST_ORE.get()); //test ore
                     })
                     .build());
 

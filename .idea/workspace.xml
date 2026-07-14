@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd9e896-2929-4119-8eab-37ceacb9f40e" name="Changes" comment="added&#10;- creative mode tab for Create changed&#10;- creative mode tab for package-in mod &quot;Shattered&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/block/ModBlocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/blockstates/test_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/models/block/test_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/models/item/test_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/textures/block/test_block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/create_changed/recipes/blasting_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/create_changed/recipes/campfire_cooking_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/create_changed/recipes/craft_block_to_item_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/create_changed/recipes/craft_item_to_block_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/create_changed/recipes/smelting_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/create_changed/recipes/smoking_test.json" afterDir="false" />
+    <list default="true" id="1bd9e896-2929-4119-8eab-37ceacb9f40e" name="Changes" comment="added&#10;- test block&#10;- several test recipes">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/blockstates/test_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/models/block/test_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/models/item/test_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/textures/block/test_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/create_changed/loot_tables/blocks/test_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/create_changed/loot_tables/blocks/test_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/forge/tags/blocks/needs_netherite_tool.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/axe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/hoe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_stone_tool.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/CreateChanged.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/CreateChanged.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/block/ModBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/item/ModCreativeModeTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mosblinker/create_changed/item/ModCreativeModeTabs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/create_changed/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/create_changed/lang/en_us.json" afterDir="false" />
     </list>
@@ -25,6 +28,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="208" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -77,12 +83,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mosblinker/create-changed-1.20.1.git",
-    "accountId": "0e04e409-8e21-40ec-8d5b-bb54a63d1387"
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jacksonwolfdev"
   }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mosblinker/create-changed-1.20.1.git&quot;,
+    &quot;accountId&quot;: &quot;0e04e409-8e21-40ec-8d5b-bb54a63d1387&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_repo/versions/1.20.1/client-extra.jar!/data/minecraft/recipes/arrow.json" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_repo/versions/1.20.1/client-extra.jar!/data/minecraft/recipes/brick.json" root0="SKIP_INSPECTION" />
@@ -97,65 +109,73 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000001188187906" />
-      <entry key="S5" value="1.0021292801913166" />
-      <entry key="S10" value="1.062271498914681" />
-      <entry key="S30" value="1.622068235871327" />
-      <entry key="S60" value="2.117113641945056" />
-      <entry key="M2" value="2.62435220989667" />
-      <entry key="M5" value="5.3348336981542515" />
-      <entry key="M10" value="13.502802595982358" />
-      <entry key="M15" value="22.660952910264758" />
-      <entry key="M30" value="48.04437245399246" />
-      <entry key="H1" value="89.47927739882911" />
-      <entry key="H2" value="143.39537612911207" />
-      <entry key="H4" value="193.15374726884505" />
-      <entry key="D1" value="256.81361676961274" />
-      <entry key="W1" value="270.6035647558379" />
+      <entry key="MS100" value="1.0000000000000175" />
+      <entry key="MS500" value="1.0017724983522147" />
+      <entry key="S2" value="1.2065442246676223" />
+      <entry key="S5" value="1.641719425767807" />
+      <entry key="S10" value="2.3754237267578446" />
+      <entry key="S30" value="4.581562093893957" />
+      <entry key="S60" value="6.10099472766591" />
+      <entry key="M2" value="8.222152296719194" />
+      <entry key="M5" value="13.351925335781084" />
+      <entry key="M10" value="20.09166099521031" />
+      <entry key="M15" value="26.021620214365807" />
+      <entry key="M30" value="43.937765303677274" />
+      <entry key="H1" value="81.96982706336254" />
+      <entry key="H2" value="143.65917683668073" />
+      <entry key="H4" value="210.2770906496703" />
+      <entry key="D1" value="306.7080729360889" />
+      <entry key="W1" value="329.0649591822132" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.039497908146251E-211" />
-      <entry key="S10" value="6.168081629690427E-106" />
-      <entry key="S30" value="2.613402606810872E-35" />
-      <entry key="S60" value="1.4903407475025436E-17" />
-      <entry key="M2" value="1.5641440568097985E-8" />
-      <entry key="M5" value="0.006893243022650849" />
-      <entry key="M10" value="0.6625648193302257" />
-      <entry key="M15" value="3.173641518789326" />
-      <entry key="M30" value="16.660486078252497" />
-      <entry key="H1" value="44.207731522826336" />
-      <entry key="H2" value="79.04819215437118" />
-      <entry key="H4" value="109.2990659248242" />
-      <entry key="D1" value="145.96749795449563" />
-      <entry key="W1" value="153.66928434697397" />
+      <entry key="MS500" value="4.5541259881841485E-234" />
+      <entry key="S2" value="4.619566893294839E-59" />
+      <entry key="S5" value="4.632767487734419E-24" />
+      <entry key="S10" value="2.1523864633783643E-12" />
+      <entry key="S30" value="1.2911403854223288E-4" />
+      <entry key="S60" value="0.011374283615121165" />
+      <entry key="M2" value="0.11924509455076442" />
+      <entry key="M5" value="1.5764828005181792" />
+      <entry key="M10" value="6.876946913454733" />
+      <entry key="M15" value="12.044544998671231" />
+      <entry key="M30" value="24.158839710077608" />
+      <entry key="H1" value="46.9542007044437" />
+      <entry key="H2" value="84.17314879327213" />
+      <entry key="H4" value="123.65852584357773" />
+      <entry key="D1" value="179.16837075934293" />
+      <entry key="W1" value="191.78774226372764" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9889709163809315" />
-      <entry key="S2" value="0.9972313698387948" />
-      <entry key="S5" value="1.001018372756994" />
-      <entry key="S10" value="1.0616796519758074" />
-      <entry key="S30" value="1.621755619311885" />
-      <entry key="S60" value="2.116905828355589" />
-      <entry key="M2" value="2.624223192657883" />
-      <entry key="M5" value="5.341595850254848" />
-      <entry key="M10" value="14.163656788725431" />
-      <entry key="M15" value="25.82935649415143" />
-      <entry key="M30" value="64.69097399559762" />
-      <entry key="H1" value="133.6678872108537" />
-      <entry key="H2" value="222.42593254242854" />
-      <entry key="H4" value="302.4403977442494" />
-      <entry key="D1" value="402.7783068952435" />
-      <entry key="W1" value="424.27242564524676" />
+      <entry key="MS100" value="0.9395227492140277" />
+      <entry key="MS500" value="0.9893392906138451" />
+      <entry key="S2" value="1.202432708829679" />
+      <entry key="S5" value="1.6392914007957473" />
+      <entry key="S10" value="2.3736108547893253" />
+      <entry key="S30" value="4.580476005699917" />
+      <entry key="S60" value="6.111121778452255" />
+      <entry key="M2" value="8.338630996647204" />
+      <entry key="M5" value="14.916791756728625" />
+      <entry key="M10" value="26.942194267889867" />
+      <entry key="M15" value="38.03478423174393" />
+      <entry key="M30" value="68.0658488975662" />
+      <entry key="H1" value="128.8968515204709" />
+      <entry key="H2" value="227.80973643246128" />
+      <entry key="H4" value="333.91957633133376" />
+      <entry key="D1" value="485.87265313311997" />
+      <entry key="W1" value="520.8521235090184" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3GVuw4R4zKVXdsYI8u5WZRmZ4BI" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -164,22 +184,33 @@
     "Gradle.create-changed-1.20.1-JsBsTesting [createMcpToSrg].executor": "Run",
     "Gradle.create-changed-1.20.1-JsBsTesting [genIntellijRuns].executor": "Run",
     "Gradle.create-changed-1.20.1-JsBsTesting [runClient].executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "experimental",
-    "last_opened_file_path": "D:/Downloads/create-changed-1.20.1-JsBsTesting/src/main/resources/data/create_changed/recipes",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Downloads/create-changed-1.20.1-JsBsTesting/src/main/resources/data/create_changed/loot_tables/blocks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\data\create_changed\recipes" />
+      <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\data\create_changed\loot_tables\blocks" />
       <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\assets\create_changed\textures\block" />
+      <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\assets\create_changed\models\block" />
       <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\assets\create_changed\models\item" />
-      <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\assets\create_changed\textures\item" />
+      <recent name="D:\Downloads\create-changed-1.20.1-JsBsTesting\src\main\resources\assets\create_changed\blockstates" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.create-changed-1.20.1-JsBsTesting [runClient]">
@@ -249,6 +280,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="hi">
       <option name="closed" value="true" />
@@ -314,8 +353,27 @@
       <option name="project" value="LOCAL" />
       <updated>1783981168246</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added&#10;- test block&#10;- several test recipes">
+      <option name="closed" value="true" />
+      <created>1783989778975</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1783989778975</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bd9e896-2929-4119-8eab-37ceacb9f40e" name="Changes" comment="added&#10;- test block&#10;- several test recipes" />
+      <created>1784069298709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784069298709</updated>
+      <workItem from="1784069303421" duration="2546000" />
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hi" />
@@ -325,6 +383,7 @@
     <MESSAGE value="ADDED A TEST ITEM HELL YEAH" />
     <MESSAGE value="added&#10;- raw test item (for recipe in future)&#10;- creative mode tab &quot;experimental testing&quot;" />
     <MESSAGE value="added&#10;- creative mode tab for Create changed&#10;- creative mode tab for package-in mod &quot;Shattered&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added&#10;- creative mode tab for Create changed&#10;- creative mode tab for package-in mod &quot;Shattered&quot;" />
+    <MESSAGE value="added&#10;- test block&#10;- several test recipes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added&#10;- test block&#10;- several test recipes" />
   </component>
 </project>
